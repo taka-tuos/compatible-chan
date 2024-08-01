@@ -468,9 +468,9 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "compatible_chan-v0-led.step",
       "svg": "",
-      "vrml": ""
+      "vrml": "compatible_chan-v0-led.wrl"
     },
     "page_layout_descr_file": ""
   },

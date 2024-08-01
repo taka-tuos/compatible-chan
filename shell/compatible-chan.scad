@@ -1,4 +1,7 @@
+use <pcb.scad>
+
 $fn = $preview ? 16 : 48;
+m_led = true;
 
 module roundsquare(s, r) {
     union() {
@@ -66,26 +69,30 @@ union() {
                 cube([60, 54-15, 12], true);
             }
         }
-        translate([-10, 0, 10]) {
-            cube([60, 35, 25], true);
+        if(!m_led) {
+            translate([-10, 0, 10]) {
+                cube([60, 35, 25], true);
+            }
         }
         translate([0, 0, 7.2+5]) {
             cube([60, 35, 10], true);
         }
     }
     
-    translate([-(27-5.1),-(27-5.1), 1.5]) screwstand(2, 4.5, 9, 5, 0, 1, 1, 0); 
-    translate([-(27-5.1), (27-5.1), 1.5]) screwstand(2, 4.5, 9, 5, 1, 0, 0, 1); 
-    translate([ (27-5.1),-(27-5.1), 1.5]) screwstand(2, 4.5, 9, 5, 1, 0, 0, 1); 
-    translate([ (27-5.1), (27-5.1), 1.5]) screwstand(2, 4.5, 9, 5, 0, 1, 1, 0); 
+    translate([-(27-5.1),-(27-5.1), 1.5]) screwstand(2.1, 4.5, 9, 5, 0, 1, 1, 0); 
+    translate([-(27-5.1), (27-5.1), 1.5]) screwstand(2.1, 4.5, 9, 5, 1, 0, 0, 1); 
+    translate([ (27-5.1),-(27-5.1), 1.5]) screwstand(2.1, 4.5, 9, 5, 1, 0, 0, 1); 
+    translate([ (27-5.1), (27-5.1), 1.5]) screwstand(2.1, 4.5, 9, 5, 0, 1, 1, 0); 
     
-    translate([-13, -(27-4), 1.5]) screwstand(1.5, 3.5, 5.6, 5, 1, 0, 1, 0);
-    translate([-13,  (27-4), 1.5]) screwstand(1.5, 3.5, 5.6, 5, 0, 1, 0, 1);
+    translate([-13, -(27-4), 1.5]) screwstand(1.6, 3.5, 5.6, 5, 1, 0, 1, 0);
+    translate([-13,  (27-4), 1.5]) screwstand(1.6, 3.5, 5.6, 5, 0, 1, 0, 1);
     
-    translate([ 13, -(27-4), 1.5]) screwstand(1.5, 3.5, 5.6, 5, 1, 0, 1, 0);
-    translate([ 13,  (27-4), 1.5]) screwstand(1.5, 3.5, 5.6, 5, 0, 1, 0, 1);
+    translate([ 13, -(27-4), 1.5]) screwstand(1.6, 3.5, 5.6, 5, 1, 0, 1, 0);
+    translate([ 13,  (27-4), 1.5]) screwstand(1.6, 3.5, 5.6, 5, 0, 1, 0, 1);
     
-    translate([47.8 / 2 - 1.7 + 0.5, 0, 1.5 + 0.5]) cube([1, 36, 1], true);
+    if(!m_led) {
+        translate([47.8 / 2 - 1.7 + 0.5, 0, 1.5 + 0.5]) cube([1, 36, 1], true);
+    }
     
     if($preview) {
         /*translate([0, -2, 2.8]) {
@@ -119,25 +126,37 @@ union() {
             }
         }*/
         
-        translate([-1.7, 0, 1.05 + 1.5]) {
-            color("Silver") {
-                translate([0, 0, 0]) cube([47.8, 34.6, 2.05], true);
+        if(!m_led) {
+            translate([-1.7, 0, 1.05 + 1.5]) {
+                color("Silver") {
+                    translate([0, 0, 0]) cube([47.8, 34.6, 2.05], true);
+                }
+                
+                color("DimGray") {
+                    translate([1.7, 0, -0.1]) cube([40.8, 30.6, 2.0], true);
+                }
             }
-            
-            color("DimGray") {
-                translate([1.7, 0, -0.1]) cube([40.8, 30.6, 2.0], true);
-            }
-        }
-        
-        color("Green", 0.6) {
-            //translate([0, 0, 6.6]) import("compatible-chan-v0.stl", convexity = 2);
+        } else {
+            //color("Green", 0.6) {
+                translate([0, 0, 6.6 + 1.6]) {
+                    rotate([0, 180, 0]) {
+                        //import("compatible-chan-v0-led.stl", convexity = 2);
+                        TXFM_1();
+                    }
+                }
+            //}
         }
     }
     
     color("DimGray", 0.6) {
         difference() {
             translate([0, 0, 0.3]) linear_extrude(1.2, convexity = 2) roundsquare(54-0.9, 5-0.45);
-            cube([40.8, 30.6, 4], true);
+            if(!m_led) {
+                cube([40.8, 30.6, 4], true);
+            } else {
+                
+            }
+            
             //cube([27.972, 32.634, 4], true);
             //translate([0, 2.819-2, 0]) cube([28.86, 28.86, 4], true);
             //translate([0, 2, 0]) cylinder(4, 16, 16);
