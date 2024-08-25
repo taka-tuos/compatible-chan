@@ -1,6 +1,9 @@
 # compatible-chan
 [スタックチャン](https://github.com/stack-chan/stack-chan) 用の自由なCoreモジュール (GPLv3)
 
+# ・ _ ・
+![v0.1-led 788bs版の動作の様子](media/240825-v0-788bs.JPG)
+
 # このプロジェクトのスコープ
 - スタックチャンのCoreモジュールに自由な選択肢を追加することが目的
 - M5Stack系の製品を広範に置き換えるもの**ではない** (スタックチャンに必要な機能のみを実装する)
