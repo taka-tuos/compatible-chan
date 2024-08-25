@@ -4890,7 +4890,7 @@
 		)
 		(uuid "097924ce-2fb6-4843-b158-b6216b0f04ad")
 	)
-	(label "D1.1"
+	(label "D1.F"
 		(at 78.7438 120.65 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4912,7 +4912,7 @@
 		)
 		(uuid "112d3df4-8837-429d-a6c6-967c26c01591")
 	)
-	(label "D1.F"
+	(label "D1.6"
 		(at 119.3762 133.35 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4923,7 +4923,7 @@
 		)
 		(uuid "14ef7d41-f21c-4708-ab1b-5977e985884d")
 	)
-	(label "D1.E"
+	(label "D1.5"
 		(at 119.38 130.81 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4956,7 +4956,7 @@
 		)
 		(uuid "1b03e322-4c1b-471b-8963-b701232c2465")
 	)
-	(label "D2.D"
+	(label "D2.4"
 		(at 241.3038 128.27 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4967,7 +4967,7 @@
 		)
 		(uuid "1e08b60f-cdc0-4300-af39-6435047274c2")
 	)
-	(label "D1.C"
+	(label "D1.3"
 		(at 119.38 125.73 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5000,7 +5000,7 @@
 		)
 		(uuid "2b3ce41e-9689-4238-837a-314631943a5b")
 	)
-	(label "D1.A"
+	(label "D1.1"
 		(at 119.38 120.65 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5011,7 +5011,7 @@
 		)
 		(uuid "2cb668f8-22e1-4dc1-8a98-f506cd416d58")
 	)
-	(label "D2.B"
+	(label "D2.2"
 		(at 241.3038 123.19 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5022,7 +5022,7 @@
 		)
 		(uuid "2d5d6e41-13ec-477f-9099-39e803681d7e")
 	)
-	(label "D1.6"
+	(label "D1.A"
 		(at 78.7438 133.35 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5044,7 +5044,7 @@
 		)
 		(uuid "33ee1775-a5b8-4d1e-9527-4406d293faf8")
 	)
-	(label "D2.7"
+	(label "D2.DP"
 		(at 200.6638 135.89 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5055,7 +5055,7 @@
 		)
 		(uuid "37936864-026f-4ae0-a421-35f871e1780c")
 	)
-	(label "D1.D"
+	(label "D1.4"
 		(at 119.38 128.27 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5066,7 +5066,7 @@
 		)
 		(uuid "3948db31-55a6-4281-a25d-3d15b1046e44")
 	)
-	(label "D2.DP"
+	(label "D2.0"
 		(at 241.3 118.11 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5077,7 +5077,7 @@
 		)
 		(uuid "44a5c1ab-df6f-4f99-b712-982fd2485234")
 	)
-	(label "D1.5"
+	(label "D1.B"
 		(at 78.74 130.81 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5088,7 +5088,7 @@
 		)
 		(uuid "46b266ca-bc06-4c72-b6e4-78a1ad4e31b1")
 	)
-	(label "D1.3"
+	(label "D1.D"
 		(at 78.74 125.73 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5099,7 +5099,7 @@
 		)
 		(uuid "47414c57-c1a8-44f6-9c7b-67aeb2e06b99")
 	)
-	(label "D1.DP"
+	(label "D1.0"
 		(at 119.38 118.11 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5121,7 +5121,7 @@
 		)
 		(uuid "4eb55cd6-b442-4676-9f4c-6bdac357c819")
 	)
-	(label "D1.B"
+	(label "D1.2"
 		(at 119.38 123.19 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5132,7 +5132,7 @@
 		)
 		(uuid "5207d379-16dd-4c47-98ac-54a22dba892e")
 	)
-	(label "D2.0"
+	(label "D2.G"
 		(at 200.6638 118.11 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5165,7 +5165,7 @@
 		)
 		(uuid "560e693a-2e60-4294-aeed-38ee3560d0ea")
 	)
-	(label "D1.4"
+	(label "D1.C"
 		(at 78.7438 128.27 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5209,7 +5209,7 @@
 		)
 		(uuid "60716dfc-bd40-4b5f-af84-cb9e46894fdb")
 	)
-	(label "D2.4"
+	(label "D2.C"
 		(at 200.6638 128.27 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5231,7 +5231,7 @@
 		)
 		(uuid "66b29986-00ab-4b5d-96b1-7b4b3dd91c30")
 	)
-	(label "D2.E"
+	(label "D2.5"
 		(at 241.3038 130.81 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5242,7 +5242,7 @@
 		)
 		(uuid "68c3ce7f-9d19-4287-b79a-219a86ca51df")
 	)
-	(label "D2.G"
+	(label "D2.7"
 		(at 241.3038 135.89 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5286,7 +5286,7 @@
 		)
 		(uuid "7673d8ed-28c5-418b-b007-ee2f02258a9b")
 	)
-	(label "D1.2"
+	(label "D1.E"
 		(at 78.7438 123.19 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5319,7 +5319,7 @@
 		)
 		(uuid "8f23d93f-ec44-4366-9167-d76e05ef629e")
 	)
-	(label "D2.6"
+	(label "D2.A"
 		(at 200.6638 133.35 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5363,7 +5363,7 @@
 		)
 		(uuid "97a4fb6e-a8a8-4ee3-b68f-24ba76ef1642")
 	)
-	(label "D2.C"
+	(label "D2.3"
 		(at 241.3038 125.73 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5374,7 +5374,7 @@
 		)
 		(uuid "98151f4b-2334-4ba2-b916-c28bb0c20978")
 	)
-	(label "D1.7"
+	(label "D1.DP"
 		(at 78.7438 135.89 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5451,7 +5451,7 @@
 		)
 		(uuid "be3eaf8f-381f-4493-bdfa-0cf940a2a212")
 	)
-	(label "D2.2"
+	(label "D2.E"
 		(at 200.6638 123.19 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5484,7 +5484,7 @@
 		)
 		(uuid "c6f1749d-967c-48da-bd54-7b48a3b326ef")
 	)
-	(label "D1.0"
+	(label "D1.G"
 		(at 78.7438 118.11 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5495,7 +5495,7 @@
 		)
 		(uuid "c99b6cbb-69ab-451f-9359-8ff3bd5086bf")
 	)
-	(label "D2.1"
+	(label "D2.F"
 		(at 200.6638 120.65 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5506,7 +5506,7 @@
 		)
 		(uuid "ca7bc36c-a162-480c-b669-a9c4e1c2bf1d")
 	)
-	(label "D2.5"
+	(label "D2.B"
 		(at 200.66 130.81 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5517,7 +5517,7 @@
 		)
 		(uuid "dc5d43d4-235f-4e9e-8c07-82b6669b688f")
 	)
-	(label "D1.G"
+	(label "D1.7"
 		(at 119.38 135.89 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5528,7 +5528,7 @@
 		)
 		(uuid "e80ec0a3-48ea-49f2-bc08-dd04a4884975")
 	)
-	(label "D2.A"
+	(label "D2.1"
 		(at 241.3038 120.65 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5539,7 +5539,7 @@
 		)
 		(uuid "ec7675ca-9b05-4ea9-b8d1-fa90712d68b7")
 	)
-	(label "D2.3"
+	(label "D2.D"
 		(at 200.66 125.73 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5572,7 +5572,7 @@
 		)
 		(uuid "f07b85f6-abbe-432a-a2b8-18cc83e5f719")
 	)
-	(label "D2.F"
+	(label "D2.6"
 		(at 241.3 133.35 0)
 		(fields_autoplaced yes)
 		(effects
@@ -7373,7 +7373,7 @@
 				)
 			)
 		)
-		(property "Value" "788AS"
+		(property "Value" "788BS"
 			(at 100.965 113.03 0)
 			(effects
 				(font
@@ -8343,7 +8343,7 @@
 				)
 			)
 		)
-		(property "Value" "788AS"
+		(property "Value" "788BS"
 			(at 222.885 113.03 0)
 			(effects
 				(font
